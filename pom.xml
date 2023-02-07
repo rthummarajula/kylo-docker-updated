@@ -217,9 +217,9 @@
     <module>services</module>
     <module>integrations</module>
     <module>install</module>
-    <module>docs</module>
+    <!-- <module>docs</module>
     <module>samples</module>
-    <module>release</module>
+    <module>release</module> -->
   </modules>
   <repositories>
     <repository>
