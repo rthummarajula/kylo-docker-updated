@@ -263,8 +263,8 @@
             </goals>
             <configuration>
               <nodeVersion>${node.version}</nodeVersion>
-              <npmVersion> 9.4.2</npmVersion>
-	    < !-- <npmVersion>${npm.version}</npmVersion> -->
+              <npmVersion>9.4.2</npmVersion>
+	    <!-- <npmVersion>${npm.version}</npmVersion> -->
             </configuration>
           </execution>
           <execution>
