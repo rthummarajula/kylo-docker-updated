@@ -42,7 +42,7 @@
     "@uirouter/angular": "^5.0.1",
     "@uirouter/angular-hybrid": "^6.0.1",
     "@uirouter/angularjs": "^1.0.15",
-    "@uirouter/core": "^5.0.17",
+    "@uirouter/core": "^6.0.1",
     "@uirouter/rx": "^0.6.0",
     "angular": "1.6.7",
     "angular-translate": "^2.17.0",
