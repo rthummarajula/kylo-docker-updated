@@ -58,6 +58,16 @@
       <artifactId>nifi-standard-processors</artifactId>
       <version>${nifi.cache-client.version}</version>
       <scope>provided</scope>
+        <exclusions>
+        <exclusion> 
+          <groupId>com.burgstaller</groupId>
+          <artifactId>okhttp-digest</artifactId>
+        </exclusion>
+	 <exclusion> 
+          <groupId>com.martiansoftware</groupId>
+          <artifactId>macnificent</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
 
     <dependency>
