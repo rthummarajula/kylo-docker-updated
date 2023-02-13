@@ -259,8 +259,9 @@
 	  
 	<repository>
       <id>qritrim-libraries</id>
-      <name>qritrim-libraries-name</name>
-      <url>https://repo.qritrim.com/maven</url>
+      <name>qritrim-libraries-name</name>	
+      <url>https://repo.qritrim.com/#browse/search/maven</url>
+      <!-- <url>https://repo.qritrim.com/maven</url> -->
       <snapshots>
         <enabled>false</enabled>
       </snapshots>
