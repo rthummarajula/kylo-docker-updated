@@ -34,9 +34,13 @@
           <groupId>com.burgstaller</groupId>
           <artifactId>okhttp-digest</artifactId>
         </exclusion>
+	 <exclusion> 
+          <groupId>com.martiansoftware</groupId>
+          <artifactId>macnificent</artifactId>
+        </exclusion>
       </exclusions> 
     </dependency> 
-
+	  
     <dependency>
       <groupId>com.thinkbiganalytics.kylo.integrations</groupId>
       <artifactId>kylo-nifi-framework-api</artifactId>
