@@ -23,13 +23,20 @@
       <scope>provided</scope>
     </dependency>
 
-	  <!--
+
     <dependency>
       <groupId>org.apache.nifi</groupId>
       <artifactId>nifi-standard-processors</artifactId>
       <version>1.3.0</version>
       <scope>provided</scope>
-    </dependency> -->
+	    <exclusions>
+        //Declare the exclusion here
+        <exclusion> 
+          <groupId>com.burgstaller</groupId>
+          <artifactId>okhttp-digest</artifactId>
+        </exclusion>
+      </exclusions> 
+    </dependency> 
 
     <dependency>
       <groupId>com.thinkbiganalytics.kylo.integrations</groupId>
