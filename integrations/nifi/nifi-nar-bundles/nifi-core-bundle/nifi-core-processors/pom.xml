@@ -29,8 +29,7 @@
       <artifactId>nifi-standard-processors</artifactId>
       <version>1.3.0</version>
       <scope>provided</scope>
-	    <exclusions>
-        //Declare the exclusion here
+      <exclusions>
         <exclusion> 
           <groupId>com.burgstaller</groupId>
           <artifactId>okhttp-digest</artifactId>
