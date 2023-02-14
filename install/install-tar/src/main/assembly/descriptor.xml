@@ -559,7 +559,7 @@
       <outputDirectory>lib</outputDirectory>
       <fileMode>755</fileMode>
     </file>
-    <file>
+    <!-- <file>
       <source>${project.parent.parent.basedir}/install/install-inspector/install-inspector-app/target/kylo-install-inspector-app-${project.version}.war</source>
       <outputDirectory>kylo-install-inspector/lib</outputDirectory>
       <fileMode>755</fileMode>
@@ -568,7 +568,7 @@
       <source>${project.parent.parent.basedir}/install/install-inspector/install-inspector-app/src/main/resources/logback-spring.xml</source>
       <outputDirectory>kylo-install-inspector/conf</outputDirectory>
       <fileMode>755</fileMode>
-    </file>
+    </file> -->
     <file>
       <source>${project.parent.parent.basedir}/install/install-inspector/install-inspector-api/target/kylo-install-inspector-api-${project.version}.jar</source>
       <outputDirectory>kylo-install-inspector/inspections</outputDirectory>
