@@ -579,12 +579,12 @@
       <outputDirectory>kylo-install-inspector/inspections</outputDirectory>
       <fileMode>755</fileMode>
     </file>
-    <file>
+    <!-- <file>
       <source>${project.parent.basedir}/bin/encryptSqoopPassword.sh</source>
       <outputDirectory>bin</outputDirectory>
       <filtered>true</filtered>
       <fileMode>755</fileMode>
-    </file>
+    </file> --> 
     <file>
       <source>${project.parent.basedir}/setup/kylo-service</source>
       <outputDirectory>bin</outputDirectory>
