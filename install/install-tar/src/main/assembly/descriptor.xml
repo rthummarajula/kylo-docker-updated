@@ -78,11 +78,11 @@
       <directory>${project.parent.parent.basedir}/ui/ui-app/target/classes/static/assets/</directory>
       <fileMode>755</fileMode>
     </fileSet>
-    <fileSet>
+    <!-- <fileSet>
       <outputDirectory>kylo-ui/lib</outputDirectory>
       <directory>${project.parent.parent.basedir}/ui/ui-app/target/kylo-ui-app-${project.version}-distribution/kylo-ui-app-${project.version}/lib</directory>
       <fileMode>755</fileMode>
-    </fileSet>
+    </fileSet> -->
 
 
     <fileSet>
@@ -603,11 +603,11 @@
       <filtered>true</filtered>
       <fileMode>755</fileMode>
     </file>
-    <file>
+    <!-- <file>
       <source>${project.parent.parent.basedir}/ui/ui-app/target/kylo-ui-app-${project.version}.jar</source>
       <outputDirectory>kylo-ui/lib</outputDirectory>
       <fileMode>755</fileMode>
-    </file>
+    </file> -->
     <file>
       <source>${project.parent.parent.basedir}/ui/ui-app/src/main/resources/application.properties</source>
       <outputDirectory>kylo-ui/conf</outputDirectory>
