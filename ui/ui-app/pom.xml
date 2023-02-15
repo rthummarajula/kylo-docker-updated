@@ -275,7 +275,7 @@
               <goal>npm</goal>
             </goals>
             <configuration>
-              <arguments>install --force</arguments>
+              <arguments>install</arguments>
             </configuration>
           </execution>
           <execution>
