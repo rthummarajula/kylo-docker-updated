@@ -151,11 +151,11 @@
       <artifactId>kylo-service-app</artifactId>
       <version>${project.version}</version>
     </dependency>
-    <!-- <dependency>
+    <dependency>
       <groupId>com.thinkbiganalytics.kylo</groupId>
       <artifactId>kylo-ui-app</artifactId>
       <version>${project.version}</version>
-    </dependency> -->
+    </dependency>
     <dependency>
       <groupId>com.thinkbiganalytics.kylo</groupId>
       <artifactId>kylo-spark-shell-core</artifactId>
