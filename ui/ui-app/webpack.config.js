@@ -266,11 +266,11 @@ const webpackConfig = (env) => {
                 }
             }),
 
-            new CleanWebpackPlugin([
-                path.resolve(__dirname, "./target/classes/static/*.js"),
-                path.resolve(__dirname, "./target/cache"),
-                path.resolve(__dirname, "./target/aot")
-            ]),
+           // new CleanWebpackPlugin([
+            //    path.resolve(__dirname, "./target/classes/static/*.js"),
+            //    path.resolve(__dirname, "./target/cache"),
+            //    path.resolve(__dirname, "./target/aot")
+           // ]),
 
             new webpack.ProvidePlugin({
                 "window.jQuery": "jquery", //https://webpack.js.org/plugins/provide-plugin/#usage-jquery-with-angular-1
