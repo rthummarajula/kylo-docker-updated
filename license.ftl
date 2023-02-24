@@ -150,6 +150,8 @@
   <@slf4jLicense/>
 <#elseif project.groupId == "postgresql">
   <@postgresqlLicense/>
+<#elseif project.groupId == "mysql">
+  <@postgresqlLicense/>
 <#elseif project.groupId == "xmlenc">
   <@xmlencLicense/>
 <#elseif licenses?seq_contains("Public Domain")>
