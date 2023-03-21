@@ -103,7 +103,7 @@ public class JerseyConfig extends ResourceConfig {
                  "com.thinkbiganalytics.kylo.catalog.rest.controller"
         );
 
-        //register(JacksonFeature.class);
+        register(JacksonFeature.class);
         register(MultiPartFeature.class);
         register(WadlResource.class);
 
